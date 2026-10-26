@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Part 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>JavaScript Practice - Part 2</h1>
+
+    <!-- TASK 6 -->
+    <section>
+        <h2>Task 6 - Counter</h2>
+
+        <p id="counter">0</p>
+
+        <button id="increase">Increase</button>
+        <button id="decrease">Decrease</button>
+        <button id="reset">Reset</button>
+    </section>
+
+
+    <!-- TASK 7 -->
+    <section>
+        <h2>Task 7 - Live Text Preview</h2>
+
+        <label for="textInput">Enter your text:</label>
+        <input type="text" id="textInput">
+
+        <p id="preview">Your text will appear here</p>
+
+        <p>Characters: <span id="charCount">0</span></p>
+
+        <button id="clear">Clear</button>
+    </section>
+
+
+    <!-- TASK 8 -->
+    <section>
+        <h2>Task 8 - Change Image</h2>
+
+        <label for="animalSelect">Choose an animal:</label>
+
+        <select id="animalSelect">
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="rabbit">Rabbit</option>
+        </select>
+
+        <br><br>
+
+        <img id="animalImage" src="images/cat.jpg" alt="A cat">
+
+        <p id="caption">Cat</p>
+    </section>
+
+
+    <!-- TASK 9 -->
+    <section>
+        <h2>Task 9 - Keyboard Events</h2>
+
+        <label for="keyboardInput">Type something:</label>
+        <input type="text" id="keyboardInput">
+
+        <p id="keyStatus">Press a key</p>
+
+        <p id="keyResult"></p>
+    </section>
+
+
+    <!-- TASK 10 -->
+    <section>
+        <h2>Task 10 - Mouse and Focus Events</h2>
+
+        <div id="card" tabindex="0">
+            Interactive Card
+        </div>
+
+        <p id="instruction">
+            Hover over the card or focus it with Tab.
+        </p>
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>

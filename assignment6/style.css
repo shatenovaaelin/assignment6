@@ -1,0 +1,49 @@
+body {
+    font-family: Arial;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+input, select {
+    padding: 8px;
+}
+
+#counter {
+    font-size: 30px;
+}
+
+#animalImage {
+    width: 200px;
+}
+
+#card {
+    background-color: lightgray;
+    padding: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+.highlight {
+    background-color: lightblue !important;
+}
+
+#card:focus {
+    outline: 3px solid blue;
+}
